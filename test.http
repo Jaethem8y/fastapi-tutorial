@@ -2,11 +2,13 @@
 
 # GET http://localhost:8000/try?message=Korea
 
-POST http://localhost:8000
-Content-Content-Type: application/json
+# GET http://localhost:8000/try/path
 
-{
-    "id":3,
-    "name":"Jae",
-    "age":22
-}
+# POST http://localhost:8000
+# Content-Content-Type: application/json
+
+# {
+#     "id":3,
+#     "name":"Jae",
+#     "age":22
+# }

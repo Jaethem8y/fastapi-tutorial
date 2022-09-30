@@ -16,6 +16,10 @@ async def root():
 async def root(message:str):
     return message
 
+@app.get("/try/{path_var}")
+async def path_var_path(path_var:str):
+    return path_var
+
 @app.post("/")
 async def root_post(something:Something):
     return something
